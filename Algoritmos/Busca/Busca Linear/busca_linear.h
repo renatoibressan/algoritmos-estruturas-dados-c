@@ -1,0 +1,1 @@
+int busca_linear(int v[], int n, int x);
