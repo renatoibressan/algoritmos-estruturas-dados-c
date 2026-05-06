@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include "tabela_hash.h"
 
+void menu() {
+    printf("1. Adicionar a tabela\n");
+    printf("2. Buscar na tabela\n");
+    printf("0. Encerrar o programa\n");
+    printf("Insira a opcao desejada: ");
+}
+
 int hash(int chave) {
     return chave % TAMANHO;
 }

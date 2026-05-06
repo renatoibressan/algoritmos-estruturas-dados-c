@@ -7,7 +7,7 @@ int main() {
     int x, i = 0;
     while (1) {
         i++;
-        printf("Insira o %d-esimo valor da lista (ou valor invalido para encerrar a operacao): ", i);
+        printf("Insira o %d-esimo valor da lista (ou valor invalido para encerrar o programa): ", i);
         if (scanf("%d", &x) != 1) {
             printf("Valor invalido!\n(Operacao encerrada)\n");
             break;

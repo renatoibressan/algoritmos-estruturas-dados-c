@@ -7,7 +7,7 @@ int main() {
     int x, op = -1, checkup = 1;
     inicializa_fila(&f);
     while (op != 0) {
-        printf("1. Adicionar ao final da fila (enfileirar/enqueue)\n2. Remover do inicio da fila (desenfileirar/dequeue)\n0. Encerrar a operacao\nInsira a opcao desejada: ");
+        menu();
         scanf("%d", &op);
         while (op < 0 || op > 2) {
             printf("Opcao invalida!\nInsira a opcao desejada: ");

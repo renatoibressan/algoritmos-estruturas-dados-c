@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include "arvore_binaria.h"
 
+void menu() {
+    printf("1. Adicionar a arvore\n");
+    printf("2. Buscar na arvore\n");
+    printf("3. Remover da arvore\n");
+    printf("0. Encerrar o programa\n");
+    printf("Insira a opcao desejada: ");
+}
+
 No* criar(int val) {
     No *novo = malloc(sizeof(No));
     novo->dado = val;

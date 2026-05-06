@@ -3,6 +3,7 @@ typedef struct no {
     struct no *prox;
 } No;
 
+void menu();
 int push(No **topo, int val);
 int pop(No **topo, int *val);
 void imprime_pilha(const char *mensagem, No *topo);

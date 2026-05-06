@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include "fila_estatica.h"
 
+void menu() {
+    printf("1. Adicionar ao final da fila (enfileirar/enqueue)\n");
+    printf("2. Remover do inicio da fila (desenfileirar/dequeue)\n");
+    printf("0. Encerrar o programa\n");
+    printf("Insira a opcao desejada: ");
+}
+
 void inicializa_fila(Fila *f) {
     f->inicio = f->fim = f->tam = 0;
 }

@@ -9,6 +9,7 @@ typedef struct {
     int tam;
 } Fila;
 
+void menu();
 void inicializa_fila(Fila *f);
 int enqueue(Fila *f, int val);
 int dequeue(Fila *f, int *val);

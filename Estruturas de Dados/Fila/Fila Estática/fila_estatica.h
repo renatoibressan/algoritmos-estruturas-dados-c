@@ -5,6 +5,7 @@ typedef struct {
     int dados[MAX];
 } Fila;
 
+void menu();
 void inicializa_fila(Fila *f);
 int esta_cheia(Fila *f);
 int esta_vazia(Fila *f);

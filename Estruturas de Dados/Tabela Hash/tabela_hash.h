@@ -5,6 +5,7 @@ typedef struct no {
     struct no *prox;
 } No;
 
+void menu();
 int hash(int chave);
 void inicializar_tabela(No *tabela[]);
 void inserir(No *tabela[], int chave, int val);

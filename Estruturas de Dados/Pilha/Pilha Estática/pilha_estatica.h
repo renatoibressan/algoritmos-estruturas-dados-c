@@ -5,6 +5,7 @@ typedef struct {
     int dados[MAX];
 } Pilha;
 
+void menu();
 void inicializa_pilha(Pilha *p);
 int esta_cheia(Pilha *p);
 int esta_vazia(Pilha *p);

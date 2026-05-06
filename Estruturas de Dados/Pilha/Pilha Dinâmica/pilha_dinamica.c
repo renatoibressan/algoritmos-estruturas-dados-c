@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include "pilha_dinamica.h"
 
+void menu() {
+    printf("1. Adicionar ao topo da pilha\n");
+    printf("2. Remover do topo da pilha\n");
+    printf("0. Encerrar o programa\n");
+    printf("Insira a opcao desejada: ");
+}
+
 int push(No **topo, int val) {
     No *novo = malloc(sizeof(No));
     if (!novo) return 0;

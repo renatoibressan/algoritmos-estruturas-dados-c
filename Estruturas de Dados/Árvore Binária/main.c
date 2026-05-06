@@ -16,7 +16,7 @@ int main() {
     }
     raiz = criar(n);
     while (op != 0) {
-        printf("1. Adicionar a arvore\n2. Buscar na arvore\n3. Remover da arvore\n0. Encerrar a operacao\nInsira a opcao desejada: ");
+        menu();
         scanf("%d", &op);
         while (op < 0 || op > 3) {
             printf("Opcao invalida!\nInsira a opcao desejada: ");

@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include "pilha_estatica.h"
 
+void menu() {
+    printf("1. Adicionar ao topo da pilha\n");
+    printf("2. Remover do topo da pilha\n");
+    printf("3. Consultar topo atual\n");
+    printf("0. Encerrar o programa\n");
+    printf("Insira a opcao desejada: ");
+}
+
 void inicializa_pilha(Pilha *p) {
     p->topo = -1;
 }

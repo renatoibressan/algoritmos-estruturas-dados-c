@@ -7,7 +7,7 @@ int main() {
     int k, x, op = -1;
     inicializar_tabela(tabela);
     while (op != 0) {
-        printf("1. Adicionar a tabela\n2. Buscar na tabela\n0. Encerrar a operacao\nInsira a opcao desejada: ");
+        menu();
         scanf("%d", &op);
         while (op < 0 || op > 2) {
             printf("Opcao invalida!\nInsira a opcao desejada: ");

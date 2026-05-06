@@ -6,7 +6,7 @@ int main() {
     No *p = NULL;
     int x, op = -1, checkup = 1;
     while (op != 0) {
-        printf("1. Adicionar ao topo da pilha\n2. Remover do topo da pilha\n0. Encerrar a operacao\nInsira a opcao desejada: ");
+        menu();
         scanf("%d", &op);
         while (op < 0 || op > 2) {
             printf("Opcao invalida!\nInsira a opcao desejada: ");
