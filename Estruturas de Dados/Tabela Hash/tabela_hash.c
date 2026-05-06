@@ -41,3 +41,15 @@ void imprimir(const char *mensagem, No *tabela[]) {
         printf("NULL\n");
     }
 }
+
+void liberar(No *tabela[]) {
+    for (int i = 0; i < TAMANHO; i++) {
+        No *atual = tabela[i];
+        while (atual) {
+            No *aux = atual;
+            atual = atual->prox;
+            free(aux);
+        }
+        tabela[i] = NULL;
+    }
+}

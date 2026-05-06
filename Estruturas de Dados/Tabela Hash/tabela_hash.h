@@ -10,3 +10,4 @@ void inicializar_tabela(No *tabela[]);
 void inserir(No *tabela[], int chave, int val);
 int buscar(No *tabela[], int chave);
 void imprimir(const char *mensagem, No *tabela[]);
+void liberar(No *tabela[]);
