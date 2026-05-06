@@ -41,7 +41,7 @@ int main() {
             case 3:
                 printf("Insira um elemento a ser removido da arvore: ");
                 scanf("%d", &x);
-                (remover(raiz, x)) ? printf("Elemento %d removido da arvore\n", x) : printf("O elemento %d nao se encontra na arvore\n", x);
+                (remover(raiz, x)) ? printf("Elemento %d removido com sucesso!\n", x) : printf("O elemento %d nao se encontra na arvore!\n", x);
                 break;
             default: break;
         }
