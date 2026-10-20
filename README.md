@@ -34,8 +34,9 @@ Este projeto reúne exemplos didáticos em C para explorar conceitos fundamentai
   - Lista estática e dinâmica
   - Pilha estática e dinâmica
   - Fila estática e dinâmica
-  - Árvore binária, AVL e rubro-negra
+  - Árvore binária, AVL, rubro-negra, patricia e B
   - Tabela hash
+  - Grafos
 
 ## 🚀 Como usar
 
@@ -71,7 +72,7 @@ gcc main.c busca_binaria.c -o busca_binaria
 
 - `Algoritmos/` — exemplos de busca, ordenação e recursão.
 - `Estruturas de Dados 1/` — exemplos de listas, pilhas e filas, árvores e hash.
-- `Estruturas de Dados 2/` — exemplos de árvores e hash.
+- `Estruturas de Dados 2/` — exemplos de árvores, hash e grafo.
 
 ## ✨ Contribuições
 
