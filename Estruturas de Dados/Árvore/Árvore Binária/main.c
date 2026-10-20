@@ -49,6 +49,6 @@ int main() {
     printf("Arvore final:\n");
     percursos(raiz);
     printf("\n");
-    liberar(raiz);
+    liberar(&raiz);
     return 0;
 }

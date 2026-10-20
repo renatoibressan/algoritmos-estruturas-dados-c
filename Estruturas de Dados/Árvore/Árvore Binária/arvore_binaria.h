@@ -1,7 +1,7 @@
 typedef struct no {
     int dado;
-    struct no *esq;
-    struct no *dir;
+    struct no *esquerda;
+    struct no *direita;
 } No;
 
 void menu();
@@ -11,4 +11,4 @@ No* buscar(No *raiz, int val);
 No* minimo(No *no);
 No* remover(No *raiz, int val);
 void percursos(No *raiz);
-void liberar(No *raiz);
+void liberar(No **raiz);
